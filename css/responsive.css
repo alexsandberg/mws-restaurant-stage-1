@@ -11,8 +11,10 @@
 	}
 
 	#map-container {
+		display: flex;
 		height: 30vh;
 		width: 100vw;
+		order: -1;
 	}
 
 	#map {
