@@ -141,6 +141,7 @@ nav h1 a {
 }
 .options-inner {
   display: inline-block;
+  text-align: center;
 }
 .filter-options h2 {
   color: white;
@@ -159,7 +160,7 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+  /*width: 200px;*/
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -178,6 +179,7 @@ nav h1 a {
   list-style: outside none none;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
   padding: 30px 15px 60px;
   text-align: center;
   display: flex;

@@ -2,12 +2,16 @@
  /* MOBILE */
 /* -------------------------------- */
 @media screen and (max-device-width: 549px) {
+	nav {
+		line-height: 0.8; 
+	}
+
 	#maincontent {
 		flex-direction: column;
 	}
 
 	#map-container {
-		height: 40vh;
+		height: 30vh;
 		width: 100vw;
 	}
 
@@ -20,8 +24,7 @@
 	}
 
 	.filter-options select {
-	    font-size: 19pt;
-	    width: 250px;
+	    font-size: 12pt;
 	}
 
 	.options-inner {
