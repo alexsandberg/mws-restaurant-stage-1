@@ -3,7 +3,19 @@
 /* -------------------------------- */
 @media screen and (max-device-width: 549px) {
 	nav {
-		line-height: 0.8; 
+		/*line-height: 0.8; */
+		height: 60px;
+	}
+
+	nav h1 {
+		width: 300px;
+		display: flex;
+  		justify-content: center;
+	}
+
+	nav h1 a {
+		font-size: 12px;
+		line-height: 1.5;
 	}
 
 	#maincontent {
@@ -22,16 +34,24 @@
 	}
 
 	.filter-options {
-		height: 140px;
+		height: 90px;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.filter-options h2 {
+		display: block;
+		width: 100%;
+		font-size: 14px;
 	}
 
 	.filter-options select {
-	    font-size: 12pt;
+	    font-size: 12px;
 	}
 
 	.options-inner {
 	    display: flex;
-	    flex-direction: column;
+	    flex-direction: row;
 	}
 
 	.restaurants {
