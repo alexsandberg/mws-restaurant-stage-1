@@ -317,6 +317,10 @@ nav h1 a {
   text-transform: uppercase;
 	width: 90%;
 }
+#restaurant-hours {
+  margin-left: auto;
+  margin-right: auto;
+}
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
