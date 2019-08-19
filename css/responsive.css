@@ -22,6 +22,10 @@
 		flex-direction: column;
 	}
 
+	.inside #maincontent {
+		padding-top: 121px;
+	}
+
 	#map-container {
 		display: flex;
 		height: 30vh;
@@ -73,6 +77,30 @@
 	#restaurants-list li a {
 		font-size: 50%;
 	}
+
+	#restaurant-name {
+		font-size: 12pt;
+	}
+
+	.restaurant-info p,
+	#restaurant-address,
+	#restaurant-hours tr td,
+	#reviews-list li p {
+		font-size: 12pt;
+	}	
+
+	#reviews-container {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	#breadcrumb {
+		width: 100vw;
+	}
+
+	#breadcrumb li {
+		font-size: 12pt;
+	}
 }
 
 
@@ -84,6 +112,10 @@
 		flex-direction: column;
 	}
 
+	.inside #maincontent {
+		padding-top: 121px;
+	}
+
 	#map-container {
 		display: flex;
 		width: 100vw;
@@ -93,6 +125,31 @@
 
 	#map {
 		height: 100%;
+	}
+
+	#restaurants-list li h1,
+	#restaurants-list p,
+	#restaurants-list li a {
+		font-size: 50%;
+	}
+
+	#restaurant-name {
+		font-size: 14pt;
+	}
+
+	.restaurant-info p,
+	#restaurant-address,
+	#restaurant-hours tr td,
+	#reviews-list li p {
+		font-size: 12pt;
+	}	
+
+	#breadcrumb {
+		width: 100vw;
+	}
+
+	#breadcrumb li {
+		font-size: 12pt;
 	}
 }
 
@@ -123,7 +180,7 @@
 	}
 
 	#restaurant-hours tr td {
-		font-size: 14pt;
+		font-size: 12pt;
 	}
 }
 

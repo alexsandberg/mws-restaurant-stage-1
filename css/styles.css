@@ -345,8 +345,10 @@ nav h1 a {
   text-align: center;
 }
 #reviews-list {
+  width: 100%;
   margin: 0;
   padding-bottom: 30px;
+  padding-inline-start: 0;
 }
 #reviews-list li {
   background-color: #fff;
