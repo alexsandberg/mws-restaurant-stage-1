@@ -64,6 +64,13 @@
 
 	#restaurants-list li {
 		width: 100%;
+		padding: 10px;
+	}
+
+	#restaurants-list li h1,
+	#restaurants-list p,
+	#restaurants-list li a {
+		font-size: 50%;
 	}
 }
 
