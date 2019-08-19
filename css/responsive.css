@@ -132,6 +132,10 @@
 		overflow-y: auto;
 		float: left;
 	}
+
+	#breadcrumb {
+		width: 45vw;
+	}
 }
 
 @media screen and (min-width: 1320px) {
@@ -147,6 +151,10 @@
 		height: 100vh;
 		overflow-y: auto;
 		float: left;
+	}
+
+	#breadcrumb {
+		width: 35vw;
 	}
 }
 
