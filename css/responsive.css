@@ -95,6 +95,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}*/
+
 	body {
 		height: 100vh;
 	}
@@ -105,12 +106,27 @@
 
 	#map-container {
 		height: 100vh;
-		width: 65vw;
+		width: 55vw;
     	float: right;
 	}
 
 	#map {
 		height: 100%;
+	}
+
+	.restaurants {
+		width: 45vw;
+		height: 100vh;
+		overflow-y: auto;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1320px) {
+	#map-container {
+		height: 100vh;
+		width: 65vw;
+    	float: right;
 	}
 
 	.restaurants {
