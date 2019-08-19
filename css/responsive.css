@@ -155,6 +155,10 @@
 	#map {
 		height: 100%;
 	}
+	#restaurant-container {
+		padding: 70px 40px 30px;		
+	}
+
 
 	.restaurants,
 	#restaurant-container {
@@ -162,6 +166,11 @@
 		height: 100vh;
 		overflow-y: auto;
 		float: left;
+	}
+
+	#restaurant-hours tr td,
+	#reviews-list li p {
+		font-size: 12pt;
 	}
 
 	#breadcrumb {
