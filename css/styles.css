@@ -121,11 +121,6 @@ nav h1 a {
     text-decoration: underline;
 }
 /* ====================== Map ====================== */
-/*#map-container {
-    width: 50vw;
-    float: right;
-  }*/
-
 #map {
   height: 400px;
   width: 100%;
@@ -165,16 +160,6 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Listing ====================== */
-.restaurants {
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;*/
-  /*margin-left: auto;
-  margin-right: auto;
-  width: 1440px;*/
-  
-}
-
 #restaurants-section {
   display: flex;
   flex-direction: column;
@@ -254,31 +239,11 @@ nav h1 a {
 .inside #maincontent {
   padding-top: 80px;
 }
-/*.inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: 80vh;
-  position: fixed;
-  right: 0;
-  top: 80px;
-  width: 50%;
-}
-.inside #map {
-  background-color: #ccc;
-  height: 100%;
-  width: 100%;
-}*/
 .inside #footer {
   bottom: 0;
-  /*position: absolute;*/
   width: 100%;
- /* background-color: #444;
-  color: #aaa;
-  font-size: 8pt;
-  letter-spacing: 1px;*/
   padding: 25px;
   margin-top: 20px;
- /* text-align: center;
-  text-transform: uppercase;*/
 }
 .restaurant-info {
   display: flex;
