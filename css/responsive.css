@@ -54,7 +54,8 @@
 	    flex-direction: row;
 	}
 
-	.restaurants {
+	.restaurants,
+	#restaurant-container {
 		width: 100vw;
 	}
 
@@ -124,7 +125,8 @@
 		height: 100%;
 	}
 
-	.restaurants {
+	.restaurants,
+	#restaurant-container {
 		width: 45vw;
 		height: 100vh;
 		overflow-y: auto;
@@ -139,7 +141,8 @@
     	float: right;
 	}
 
-	.restaurants {
+	.restaurants,
+	#restaurant-container {
 		width: 35vw;
 		height: 100vh;
 		overflow-y: auto;
