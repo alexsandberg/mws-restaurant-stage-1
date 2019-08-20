@@ -324,12 +324,36 @@ nav h1 a {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  padding: 20px 20px 20px;
+  /*padding: 20px 20px 20px;*/
   position: relative;
   width: 100%;
+  border-radius: 10px;
 }
 #reviews-list li p {
   margin: 0 0 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#reviews-list li .name, 
+#reviews-list li .date {
+  color: #fff;
+  margin-bottom: 0;
+}
+#reviews-list li .rating {
+  margin-left: 20px;
+  background-color: orange;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+#reviews-list .review-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252831;
+  height: 50px;
+  margin-bottom: 20px;
 }
 #restaurant-hours td {
   color: #666;
